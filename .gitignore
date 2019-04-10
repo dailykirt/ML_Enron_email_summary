@@ -101,4 +101,7 @@ venv.bak/
 /site
 
 # mypy
-.mypy_cache/
+.mypy_cache
+
+#Related to enron dataset
+data/maildir/
