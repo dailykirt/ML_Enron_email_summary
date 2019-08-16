@@ -17,4 +17,4 @@ The following preprocessing was done:
 •	Removed stopwords using the NLTK library. 
 
 # Modeling
-•	The extractive summarization algorithm is currently based on the TextRank Algorithm detailed in the article “An Introduction to Text Summarization using the TextRank Algorithm.”
+The extractive summarization algorithm is currently based on the TextRank Algorithm detailed in the article “An Introduction to Text Summarization using the TextRank Algorithm.”
