@@ -1,0 +1,25 @@
+<!ELEMENT root (thread)>
+<!ELEMENT thread (listno, name, annotation)>
+<!ELEMENT listno (CDATA)>
+<!ELEMENT name (CDATA)>
+<!ELEMENT annotation (desc, date, summary, sentences, labels)>
+<!ELEMENT desc (CDATA)>
+<!ELEMENT date (CDATA)>
+<!ELEMENT summary (sent*)>
+<!ELEMENT sentences (sent*)>
+<!ELEMENT labels (meta*, prop*, meet*, req*, subj*, cmt*)>
+<!ELEMENT sent (CDATA)>
+<!ATTLIST sent
+	id CDATA #REQUIRED>
+<!ATTLIST meta
+	id CDATA #REQUIRED>
+<!ATTLIST prop
+	id CDATA #REQUIRED>
+<!ATTLIST meet
+	id CDATA #REQUIRED>
+<!ATTLIST req
+	id CDATA #REQUIRED>
+<!ATTLIST subj
+	id CDATA #REQUIRED>
+<!ATTLIST cmt
+	id CDATA #REQUIRED>

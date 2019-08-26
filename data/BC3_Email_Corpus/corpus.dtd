@@ -1,0 +1,14 @@
+<!ELEMENT root (thread)>
+<!ELEMENT thread (listno, name, DOC)>
+<!ELEMENT listno (CDATA)>
+<!ELEMENT name (CDATA)>
+<!ELEMENT DOC (Received, From, To, Cc?, Subject, Text)>
+<!ELEMENT Received (CDATA)>
+<!ELEMENT From (CDATA)>
+<!ELEMENT To (CDATA)>
+<!ELEMENT Cc (CDATA)>
+<!ELEMENT Subject (CDATA)>
+<!ELEMENT Text (Sent*)>
+<!ELEMENT Sent (CDATA)>
+<!ATTLIST Sent
+	id CDATA #REQUIRED>
