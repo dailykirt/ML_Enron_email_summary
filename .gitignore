@@ -3,6 +3,8 @@ glove.*
 notebooks/test_books/
 *.pkl
 notebooks/dask-worker-space/
+*.ini
+*.swp
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
