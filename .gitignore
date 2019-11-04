@@ -5,6 +5,9 @@ notebooks/test_books/
 notebooks/dask-worker-space/
 *.ini
 *.swp
+data/testdir/*
+data/dataframes/*
+data/tmp/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
