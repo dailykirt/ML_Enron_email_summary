@@ -1,5 +1,5 @@
 # Enron Email Text Summarization
-Capstone for Springboard 2019. ML techniques for summarizing emails using the Enron dataset. Currently a work in progress.
+Capstone for Springboard 2019. ML techniques for summarizing emails using the Enron dataset. A flow chart summarizing the production workflow can be found [here.](https://github.com/dailykirt/ML_Enron_email_summary/blob/master/images/Text%20Summarizing%20Flow%20Chart.jpg) Currently a work in progress.
 
 # Problem 
 Email overload can be a difficult problem to manage for both work and personal email inboxes. With the average office worker receiving between 40 to 90 emails a day, it has become difficult to extract the most important information in an optimal amount of time. A system that can create concise and coherent summaries of all emails received within a timeframe can reclaim a large amount of time.
