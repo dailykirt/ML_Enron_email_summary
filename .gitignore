@@ -9,7 +9,6 @@ data/testdir/*
 data/dataframes/*
 data/tmp/*
 notebooks/Bert-Classifier/
-notebooks/images/
 stanford-corenlp/
 
 # Byte-compiled / optimized / DLL files
