@@ -11,6 +11,7 @@ This project aims to apply extraction-based summarization methods to create a to
 Two separate datasets are used for this project. The Enron email dataset provides 150,000 emails from 150 users sent in a corporate environment and the BC3 Email Corpus that contains 40 email threads. The BC3 Email Corpus contains human summaries that can be used to test the accuracy of the machine learning generated summaries. The Enron email dataset lacks human summaries, but is used to demonstrate the practical application of automatic summarizations to a huge number of emails.
 
 Enron emails source: https://www.cs.cmu.edu/~enron/
+
 BC3 Email Corpus source: https://www.cs.ubc.ca/cs-research/lci/research-groups/natural-language-processing/bc3.html
 
 Both datasets are processed in this [notebook](https://github.com/dailykirt/ML_Enron_email_summary/blob/master/notebooks/Process_Emails.ipynb).
@@ -18,7 +19,8 @@ Both datasets are processed in this [notebook](https://github.com/dailykirt/ML_E
 # Modeling
 The extractive summarization algorithm is currently based on the TextRank Algorithm detailed in the article “An Introduction to Text Summarization using the TextRank Algorithm.”. Model accuracy was measured using the [ROUGE metric](https://pypi.org/project/py-rouge/).
 
-The ML model was created and tested in this  [notebook](https://github.com/dailykirt/ML_Enron_email_summary/blob/master/notebooks/Text_rank_summarization.ipynb).
+The ML models are in this  [notebook](https://github.com/dailykirt/ML_Enron_email_summary/blob/master/notebooks/Text_rank_summarization.ipynb).
 
 # Web Interface
 You can explore the Enron summaries [here](http://enron-emails.herokuapp.com/).
+The production code is in this [repository](https://github.com/dailykirt/email_summary_prod/tree/master)
